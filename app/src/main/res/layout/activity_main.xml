@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstrcutureapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View style="@style/WhiteLinesSeparator" />
+
+        <ImageButton
+            android:id="@+id/blues"
+            style="@style/ImageBtnHome"
+            android:src="@drawable/blues"
+            android:contentDescription="@string/imgBtn_blues"/>
+
+        <View style="@style/WhiteLinesSeparator" />
+
+        <ImageButton
+            android:id="@+id/jazz"
+            style="@style/ImageBtnHome"
+            android:src="@drawable/jazz"
+            android:contentDescription="@string/imgBtn_jazz"/>
+
+        <View style="@style/WhiteLinesSeparator" />
+
+        <ImageButton
+            android:id="@+id/pop"
+            style="@style/ImageBtnHome"
+            android:src="@drawable/pop"
+            android:contentDescription="@string/imgBtn_pop"/>
+
+        <View style="@style/WhiteLinesSeparator" />
+
+        <ImageButton
+            android:id="@+id/rock"
+            style="@style/ImageBtnHome"
+            android:src="@drawable/rock"
+            android:contentDescription="@string/imgBtn_rock"/>
+
+        <View style="@style/WhiteLinesSeparator" />
+
+        <ImageButton
+            android:id="@+id/rap"
+            style="@style/ImageBtnHome"
+            android:src="@drawable/rap"
+            android:contentDescription="@string/imgBtn_rap"/>
+
+        <View style="@style/WhiteLinesSeparator" />
+
+        <ImageButton
+            android:id="@+id/folk"
+            style="@style/ImageBtnHome"
+            android:src="@drawable/folk"
+            android:contentDescription="@string/imgBtn_folk"/>
+
+        <View style="@style/WhiteLinesSeparator" />
+
+        <ImageButton
+            android:id="@+id/classical"
+            style="@style/ImageBtnHome"
+            android:src="@drawable/classical"
+            android:contentDescription="@string/imgBtn_classical"/>
+
+    </LinearLayout>
+
+</ScrollView>

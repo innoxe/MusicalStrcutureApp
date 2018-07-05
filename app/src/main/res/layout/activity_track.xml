@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstrcutureapp.TrackActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        style="@style/WidgetToolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#ffffff">
+
+        <ImageButton
+            android:id="@+id/like"
+            style="@style/IconsToolbar"
+            android:background="@drawable/like"
+            android:contentDescription="@string/imgBtn_like_tBar" />
+    </android.support.v7.widget.Toolbar>
+
+    <View style="@style/LinesSeparatorActvity" />
+
+    <RelativeLayout
+        android:id="@+id/parent_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/track_container"
+            style="@style/TrackContainer">
+
+            <TextView
+                android:id="@+id/single_track_title"
+                style="@style/SingleTrackTitle"
+                android:textSize="28sp"
+                tools:text="Track" />
+
+            <TextView
+                android:id="@+id/album_title"
+                style="@style/AlbumTitle"
+                tools:text="Album: abcdefghi" />
+
+            <View style="@style/LineTitle" />
+
+            <TextView
+                android:id="@+id/artist_name"
+                style="@style/ArtistName"
+                tools:text="Artist" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/loading"
+        style="@style/Loading"
+        tools:text="Loading..." />
+
+    <LinearLayout
+        style="@style/ParentSeekBarAndBotton"
+        android:layout_weight="2">
+
+        <LinearLayout
+            style="@style/ChildSeekBar"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/currentTime"
+                style="@style/CurrentDurationTime"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                tools:text="00.00" />
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                style="@style/SeekBar" />
+
+            <TextView
+                android:id="@+id/durationTime"
+                style="@style/CurrentDurationTime"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="206dp"
+                tools:text="00.00" />
+
+        </LinearLayout>
+
+        <!-- Player Buttons -->
+        <LinearLayout
+            android:id="@+id/btn_section"
+            style="@style/LinearLayoutPlayerButtons">
+
+            <!-- Previous Button -->
+            <ImageButton
+                android:id="@+id/btnPrevious"
+                style="@style/ControlTrack"
+                android:contentDescription="@string/imgBtn_prev"
+                android:src="@drawable/btn_skip_start" />
+
+            <!-- Backward Button -->
+            <ImageButton
+                android:id="@+id/btnBackward"
+                style="@style/ControlTrack"
+                android:contentDescription="@string/imgBtn_back"
+                android:src="@drawable/btn_backward" />
+
+            <!-- Play Button -->
+            <ImageButton
+                android:id="@+id/btnPlay"
+                style="@style/ControlTrack"
+                android:contentDescription="@string/imgBtn_play"
+                android:src="@drawable/btn_play" />
+
+            <!-- Stop Button -->
+            <ImageButton
+                android:id="@+id/btnStop"
+                style="@style/ControlTrack"
+                android:contentDescription="@string/imgBtn_play"
+                android:src="@drawable/btn_stop" />
+
+            <!-- Forward Button -->
+            <ImageButton
+                android:id="@+id/btnForward"
+                style="@style/ControlTrack"
+                android:contentDescription="@string/imgBtn_forward"
+                android:src="@drawable/btn_forward" />
+
+            <!-- Next Button -->
+            <ImageButton
+                android:id="@+id/btnNext"
+                style="@style/ControlTrack"
+                android:contentDescription="@string/imgBtn_next"
+                android:src="@drawable/btn_skip_end" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

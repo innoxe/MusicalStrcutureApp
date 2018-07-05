@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+
+    <!-- Description ImageButton home -->
+    <string name="imgBtn_blues" translatable="false">Image button Blues</string>
+    <string name="imgBtn_jazz" translatable="false">Image button jazz</string>
+    <string name="imgBtn_pop" translatable="false">Image button pop</string>
+    <string name="imgBtn_rock" translatable="false">Image button rock</string>
+    <string name="imgBtn_rap" translatable="false">Image button raè</string>
+    <string name="imgBtn_folk" translatable="false">Image button folk</string>
+    <string name="imgBtn_classical" translatable="false">Image button classical</string>
+
+
+    <!-- Description Image album in the land layout -->
+    <string name="imgAlbum" translatable="false">Image of album</string>
+
+    <!-- Description ImageButton toolbar icon like -->
+    <string name="imgBtn_like_tBar" translatable="false">Icon like</string>
+
+    <!-- Description ImageButton control track -->
+    <string name="imgBtn_prev" translatable="false">Previous</string>
+    <string name="imgBtn_back" translatable="false">Backward</string>
+    <string name="imgBtn_play" translatable="false">Play</string>
+    <string name="imgBtn_forward" translatable="false">Forward</string>
+    <string name="imgBtn_next" translatable="false">Next</string>
+
+
+    <!-- Name for the Blues genre [CHAR LIMIT=20] -->
+    <string name="genre_blues">Blues</string>
+    <string name="title_activity_jazz">Jazz</string>
+    <string name="title_activity_pop">Pop</string>
+    <string name="title_activity_rock">Rock</string>
+    <string name="title_activity_rap">Rap</string>
+    <string name="title_activity_folk">Folk</string>
+    <string name="title_activity_classical">Classical</string>
+
+
+</resources>

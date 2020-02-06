@@ -12,3 +12,5 @@ This project is about combining various ideas and skills we’ve been practicing
 - Creating your own Custom Class
 - Looping through an ArrayList
 - Populating a ListView or GridView with an ArrayAdapter
+
+<img src="https://cloud.githubusercontent.com/assets/4307137/10105283/251b6868-63ae-11e5-9918-b789d9d682ec.png" width="15%"></img>

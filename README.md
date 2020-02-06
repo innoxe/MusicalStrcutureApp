@@ -1,4 +1,4 @@
-# MusicalStrcutureApp
+# MusicalStructureApp
 Musical Structure App project from course ABND by Google in Udacity.
 
 The goal is to design and layout the flow for the structure of a Music Player app. Note that for this project, the app does not actually need to play music.

@@ -14,3 +14,5 @@ This project is about combining various ideas and skills we’ve been practicing
 - Populating a ListView or GridView with an ArrayAdapter
 
 <img src="https://raw.githubusercontent.com/innoxe/MusicalStrcutureApp/master/app/src/main/res/drawable/Screenshot_1.png" width="15%"></img>
+<img src="https://raw.githubusercontent.com/innoxe/MusicalStrcutureApp/master/app/src/main/res/drawable/Screenshot_2.png" width="15%"></img>
+<img src="https://raw.githubusercontent.com/innoxe/MusicalStrcutureApp/master/app/src/main/res/drawable/Screenshot_3.png" width="15%"></img>
